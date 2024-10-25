@@ -1,0 +1,213 @@
+*{
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #ccc;
+    margin: 0px;
+}
+
+
+/* Navbar */
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.main-section{
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to top , #000 , #003C43);
+}
+.visa{
+    color: #E3FEF7;
+    font-size: 18px;
+    transform: rotate(17deg);    
+}
+.get{
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: #3F4142;
+    color: #fff;
+    border: none;
+}
+.nav2 h4{
+    font-size: 15px;
+    color: #ccc;
+    margin-right: 5px !important;
+    margin: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#97a1a6 ;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+nav ul li a:hover{
+    color: #fff;
+    transition: all 0.7s ease;
+}
+.nav2 a{
+    text-decoration: none;
+    color:#97a1a6 ;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+.nav2 a:hover{
+    color: #fff;
+    transition: all 0.7s ease;
+}
+/* Introtext */
+.intro-text{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    width: 500px;
+}
+.intro-text h2{
+    background:linear-gradient(to right, #99fad7, #AFF2DD);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.intro-text h3{
+    background:linear-gradient(to right, #ade2d1, #fff );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.intro-text p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #f9f9f9;
+    margin: 0px;
+}
+
+/* Get Card */
+.get-card .btn{
+    
+}
+/* From Uiverse.io by mrhyddenn */ 
+.get-card .btn {
+position: absolute;
+top: 44.5%;
+left: 50%;
+transform: translateX(-50%);
+padding: 10px 20px;
+border-radius: 7px;
+border: 1px solid #0d6efd;
+font-size: 14px;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 2px;
+background: transparent;
+color: #fff;
+overflow: hidden;
+box-shadow: 0 0 0 0 transparent;
+-webkit-transition: all 0.2s ease-in;
+-moz-transition: all 0.2s ease-in;
+transition: all 0.2s ease-in;
+}
+
+.get-card .btn:hover {
+background: #0d6efd;
+box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.215);
+-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;
+}
+
+.get-card .btn:hover::before {
+-webkit-animation: sh02 0.5s 0s linear;
+-moz-animation: sh02 0.5s 0s linear;
+animation: sh02 0.5s 0s linear;
+}
+
+.get-card .btn::before {
+content: '';
+display: block;
+width: 0px;
+height: 86%;
+position: absolute;
+top: 7%;
+left: 0%;
+opacity: 0;
+background: rgb(255, 255, 255, 0.5);
+box-shadow: 0 0 50px 30px rgb(255, 255, 255, 0.5);
+-webkit-transform: skewX(-20deg);
+-moz-transform: skewX(-20deg);
+-ms-transform: skewX(-20deg);
+-o-transform: skewX(-20deg);
+transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+from {
+    opacity: 0;
+    left: 0%;
+}
+
+50% {
+    opacity: 1;
+}
+
+to {
+    opacity: 0;
+    left: 100%;
+}
+}
+
+.get-card .btn:active {
+box-shadow: 0 0 0 0 transparent;
+-webkit-transition: box-shadow 0.2s ease-in;
+-moz-transition: box-shadow 0.2s ease-in;
+transition: box-shadow 0.2s ease-in;
+}
+
+/* Start Featuers */
+.features{
+    margin-top: 30px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.adv p{
+    margin: 0px;
+    color: #fff;
+    width: 120px;
+}
+.adv div{
+    margin:3px 20px ;
+    max-width: 142px;
+}
+/* ImagesBox */
+.images-box .img1{
+    position: absolute;
+    right: 3%;
+    bottom: 47px;
+}
+.images-box .img1 img{
+    
+    max-width: 200px;
+    max-height: 160px;
+    transform: scale(1.155);
+    box-shadow: 5px 8px 10px -10px;
+}
+.images-box h1{
+    left: 0%;
+    bottom: 20px;
+    font-size: 25px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+.images-box p{
+    position: absolute;
+    bottom: -15px;
+    left: 1%;
+    font-size:0.65rem ;
+}
+.images-box span{
+    font-size: 14px;
+}
